@@ -5,6 +5,7 @@
 | `Helmholtz/`     | Helmholtz 方程相关的 PINN 实验代码与模型 |
 | `data/`          | 数据集或示例输入文件             |
 | `results/`       | 实验输出结果、图像或模型文件     |
+| `results/pictures/`       | 图片储存在这里     |
 | `PINNnotes.ipynb`| 主笔记文件，包含核心代码与实验说明 |
 | `requirements.txt` | Python 环境依赖列表             |
 | `environment.yml`  | Conda 环境配置文件               |
