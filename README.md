@@ -10,6 +10,7 @@
 | `environment.yml`  | Conda 环境配置文件               |
 | `.gitignore`     | Git 忽略规则                     |
 | `README.md`      | 项目说明文档（本文件）           |
+| `setup.sh`      | 自动配置 PINNs 项目的 Python 虚拟环境 (pinn_env) |
 
 ---
 
@@ -29,7 +30,22 @@ pip install -r requirements.txt
 conda env create -f environment.yml
 conda activate pinn-env
 ```
+### 
 
+1. 注意到仓库根目录下的脚本
+   **`setup.sh`**
+
+2. 给它执行权限（只需一次）：
+
+   ```bash
+   chmod +x setup.sh
+   ```
+
+3. 运行：
+
+   ```bash
+   ./setup.sh
+   ```
 
 ## 🚀 在线运行方式
 
