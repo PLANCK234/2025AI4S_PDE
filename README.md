@@ -58,6 +58,8 @@ $f(x,y)$ 的表达式和方程解 $u(x,y)$ 的 200 个采样数据条件下，�
 
 检验数据：附件中名为“test.xlsx”的Excel文件中包含两张表，每张表分别提供了对应于两个子任务的200组坐标数据 $(x_i,y_i)$ ，需由参赛者利用所生成的模型预测对应这些坐标数据的解 $u(x_i,y_i)$（子任务1和2）和参数 $k(x_i,y_i)$（子任务3），并填写在excel文件对应表格位置中.
 
+数据详情及文件下载链接：[http://aisccc.cn/database/data-details?id=195](http://aisccc.cn/database/data-details?id=195)
+
 ### 评价标准
 
 本赛题将根据以下评价标准对参赛者提交内容进行评估打分：
@@ -68,17 +70,6 @@ $f(x,y)$ 的表达式和方程解 $u(x,y)$ 的 200 个采样数据条件下，�
 5. 创新性：我们鼓励模型和算法设计等方面的创新思路和方法。
 
 
-<p style="background-color: yellow; padding: 4px;">
-赛题讨论小组：
-<a href="http://aisccc.cn/task/task-details?id=179" style="color: blue;">
-http://aisccc.cn/task/task-details?id=179
-</a>
-</p>
-
-<p style="background-color: yellow; padding: 4px;">
-培训回放：
-<a href="http://aisccc.cn/course/course-details?id=144" style="color: blue;">
-http://aisccc.cn/course/course-details?id=144
-</a>
-</p>
+赛题讨论小组：[http://aisccc.cn/task/task-details?id=179](http://aisccc.cn/task/task-details?id=179)  
+培训回放：[http://aisccc.cn/course/course-details?id=144](http://aisccc.cn/course/course-details?id=144)
 
