@@ -38,18 +38,18 @@ u(x,y) = 0, & (x,y) \in \partial \Omega,
 \tag{2}
 $$
 
-其中 $\( u(x,y) \)$ 分别是待求解的方程数值解和待识别的参数 $\( k(x,y) \)$。  
-源项 $\( f(x,y) \)$ 为：
+其中 $u(x,y)$ 分别是待求解的方程数值解和待识别的参数 $k(x,y)$。  
+源项 $f(x,y)$ 为：
 
 $$
-\begin{aligned}
+\begin{}
 f(x,y) &= \frac{\pi^2}{2} (1 + x^2 + y^2) \sin\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right) \\
 &\quad - \pi x \cos\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right)
 + \pi y \sin\!\left(\frac{\pi}{2}x\right) \sin\!\left(\frac{\pi}{2}y\right).
-\end{aligned}
+\end{}
 $$
 
 在这个子任务中，参赛者需要设计和实现深度学习方法，对 Poisson 方程（2）在给定源项  
-$f(x,y)$ 的表达式和方程解 $\( u(x,y) \)$ 的 200 个采样数据条件下，识别参数 $\( k(x,y) \)$。
+$f(x,y)$ 的表达式和方程解 $u(x,y)$ 的 200 个采样数据条件下，识别参数 $k(x,y)$。
 
 
