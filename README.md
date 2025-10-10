@@ -42,11 +42,11 @@ $$
 源项 $f(x,y)$ 为：
 
 $$
-\begin{}
+\begin{aligned}
 f(x,y) &= \frac{\pi^2}{2} (1 + x^2 + y^2) \sin\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right) \\
-&\quad - \pi x \cos\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right)
+ - \pi x \cos\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right)
 + \pi y \sin\!\left(\frac{\pi}{2}x\right) \sin\!\left(\frac{\pi}{2}y\right).
-\end{}
+\end{aligned}
 $$
 
 在这个子任务中，参赛者需要设计和实现深度学习方法，对 Poisson 方程（2）在给定源项  
