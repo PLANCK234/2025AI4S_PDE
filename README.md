@@ -43,9 +43,7 @@ $$
 
 $$
 \begin{aligned}
-f(x,y) &= \frac{\pi^2}{2} (1 + x^2 + y^2) \sin\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right) \\
- - \pi x \cos\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right)
-+ \pi y \sin\!\left(\frac{\pi}{2}x\right) \sin\!\left(\frac{\pi}{2}y\right).
+f(x,y) &= \frac{\pi^2}{2} (1 + x^2 + y^2) \sin\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right) \\- \pi x \cos\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right)+ \pi y \sin\!\left(\frac{\pi}{2}x\right) \sin\!\left(\frac{\pi}{2}y\right).
 \end{aligned}
 $$
 
