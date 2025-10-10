@@ -41,6 +41,15 @@ conda activate pinn-env
 
 [![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=PLANCK234/2025AI4S_PDE)
 
+#### 首次使用提示
+
+首次启动后，执行依赖安装：
+```bash
+pip install -r requirements.txt
+# 或
+conda env create -f environment.yml && conda activate pinn-env
+```
+
 ### 方式 2：Google Colab
 
 点击下方按钮，在 Colab 中运行笔记：
