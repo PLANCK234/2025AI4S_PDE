@@ -1,8 +1,51 @@
+## 项目结构
+
+| 文件 / 文件夹    | 说明                             |
+|------------------|----------------------------------|
+| `Helmholtz/`     | Helmholtz 方程相关的 PINN 实验代码与模型 |
+| `data/`          | 数据集或示例输入文件             |
+| `results/`       | 实验输出结果、图像或模型文件     |
+| `PINNnotes.ipynb`| 主笔记文件，包含核心代码与实验说明 |
+| `requirements.txt` | Python 环境依赖列表             |
+| `environment.yml`  | Conda 环境配置文件               |
+| `.gitignore`     | Git 忽略规则                     |
+| `README.md`      | 项目说明文档（本文件）           |
+
+---
+
+## 环境配置
+
+- **Python 版本**：`3.10.18`
+- **安装依赖（两种方式）**
+
+### 使用 pip
+```bash
+pip install -r requirements.txt
+````
+
+### 使用 Conda
+
+```bash
+conda env create -f environment.yml
+conda activate pinn-env
+```
 
 
+## 🚀 在线运行方式
 
+你可以直接在浏览器中打开并运行 `PINNnotes.ipynb` 笔记：
 
+### 方式 1：GitHub Codespaces
 
+点击下方按钮，在 GitHub 云端开发环境中运行：
+
+[![Open in Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=PLANCK234/2025AI4S_PDE)
+
+### 方式 2：Google Colab
+
+点击下方按钮，在 Colab 中运行笔记：
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PLANCK234/2025AI4S_PDE/blob/main/PINNnotes.ipynb)
 
 ## AI4S赛题
 
@@ -78,4 +121,15 @@ $f(x,y)$ 的表达式和方程解 $u(x,y)$ 的 200 个采样数据条件下，�
 
 赛题讨论小组：[http://aisccc.cn/task/task-details?id=179](http://aisccc.cn/task/task-details?id=179)  
 培训回放：[http://aisccc.cn/course/course-details?id=144](http://aisccc.cn/course/course-details?id=144)
+
+---
+## 参考
+
+* Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). *Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations.*
+* 官方 PINNs 教程与论文实现。
+
+---
+
+**作者**：Guofu TANG
+**最后更新**：2025-10-10
 
