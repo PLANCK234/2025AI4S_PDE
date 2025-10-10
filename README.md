@@ -1,5 +1,3 @@
-# HelmholtzPDE
-This repository is to keep our code for solving the Helmholtz PDE.
 ## 子任务1：深度学习方法求解亥姆霍兹方程正问题
 
 亥姆霍兹（Helmholtz）方程是一个描述电磁波的椭圆偏微分方程，经常出现在物理学中的电磁辐射、地震学、声学研究等领域，因此求解 Helmholtz 方程是非常重要的。考虑对如下 Helmholtz 方程进行求解：
